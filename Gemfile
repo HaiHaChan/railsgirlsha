@@ -5,12 +5,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+gem 'devise'
+gem 'gravtastic'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
 gem 'carrierwave'
 # Use Puma as the app server
+gem 'mini_magick', '3.8.0'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
